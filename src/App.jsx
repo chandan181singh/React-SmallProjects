@@ -17,6 +17,7 @@
 
 // export default App
 
+//Background Changer
 // import Page from './bgChanger/page'
 // export default function App(){
 //   return(
@@ -24,9 +25,24 @@
 //   )
 // }
 
-import PasswordGenerator from './passGenerator/password'
-export default function App(){
-  return(
-    <PasswordGenerator />
+//PasswordGenerator
+// import PasswordGenerator from './passGenerator/password'
+// export default function App(){
+//   return(
+//     <PasswordGenerator />
+//   )
+// }
+
+//Currency Convertor
+
+import CurrencyConvertor from "./currencyConvertor/CurrencyConvertor";
+import React from 'react'
+
+function App() {
+  return (
+    <CurrencyConvertor />
   )
 }
+
+export default App
+

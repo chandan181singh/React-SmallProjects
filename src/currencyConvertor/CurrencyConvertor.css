@@ -1,0 +1,27 @@
+.currencyBox{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.currencyBox-inner{
+    width: 200px;
+    padding: 5px;
+    margin: 2px;
+}
+
+.currency{
+    background-color: rgba(0,0,0,.2);
+    border-radius: 2px;
+}
+
+.swap{
+    position: fixed;
+    border-radius: 100%;
+    transform: translate(15px, -15px);
+}
+.icon{
+    width: 35px;
+    height: 35px;
+}
+.icon:active{
+    background-color: rgb(165, 162, 162);
+}
